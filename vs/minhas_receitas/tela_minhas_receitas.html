@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minhas Receitas</title>
+    <link rel="stylesheet" href="tela_minhas_receitas.css">
+</head>
+<body>
+    <!-- Componente Menu -->
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <div class="menu-items">
+            <span>Minhas Despesas</span>
+            <span>Minhas Metas</span>
+            <span>Meu Perfil</span>
+            <span>Minhas Receitas</span>
+        </div>
+    </header>
+
+    <!-- Texto Informativo -->
+    <section class="info-text">
+        <p>Texto informativo aqui.</p>
+    </section>
+
+    <!-- Informações de Categorias e Valores -->
+    <section class="category-info">
+        <!-- Gráfico -->
+        <div class="graph">Gráfico</div>
+        <!-- Valores -->
+        <div class="values">Valores</div>
+    </section>
+
+    <!-- Categorias e Datas de Recebimento -->
+    <section class="payment-info">
+        <ul>
+            <li>Categoria 1 - Data de Recebimento - Dias Restantes</li>
+            <li>Categoria 2 - Data de Recebimento - Dias Restantes</li>
+            <!-- Mais itens -->
+        </ul>
+    </section>
+
+    <!-- Menu Lateral Direito -->
+    <aside class="right-menu">
+        <div class="current-month">Mês Atual</div>
+        <div class="expenses-type">
+            <span>Variáveis - Valor</span>
+            <span>Fixas - Valor</span>
+        </div>
+        <ul class="category-list">
+            <li>Categoria 1 - Valor</li>
+            <li>Categoria 2 - Valor</li>
+            <!-- Mais itens -->
+        </ul>
+        <!-- Botão de Edição -->
+        <button class="edit-button">Editar</button>
+    </aside>
+
+    <!-- Componente de Edição (oculto por padrão) -->
+    <section class="edit-component hidden">
+        <!-- Componente de edição aqui -->
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
