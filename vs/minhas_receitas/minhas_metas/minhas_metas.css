@@ -1,0 +1,306 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    --VarCor1: #1B1826;
+    --VarCor2: #231A26;
+
+    --VarCor3: #ffffff;
+    
+    --Despesas: #811d1d;
+    --Limite: #11857b;
+    --Lucro: #24b849;
+}
+
+/* HEADER */
+
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--VarCor1);
+    color: var(--VarCor3);
+}
+
+.Logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--VarCor2);
+    height: 20vh;
+    width: 20vw;
+}
+
+#Central{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--VarCor1);
+    height: 20vh;
+    width: 80vw;
+    padding: 0% 2% 0% 8%;
+}
+
+#TituloHeader{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 60%;
+    width: 50%;
+}
+
+#Opcoes{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: row;
+    font-size: 50%;
+    width: 50%;
+    padding-bottom: 1.5%;
+    
+}
+
+a{
+    color: var(--VarCor3);
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+img{
+    height: 100%;
+    width: 80%;
+}
+
+i img{
+    height: 3vh;
+    width: 2vw;
+    padding: 1px;
+}
+
+#IconDown{
+    justify-content: center;
+    align-items: center;
+}
+
+/* MAIN */
+
+/* Orçamento */
+
+#TituloMain{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 2%;
+    height: 10vh;
+}
+
+#texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Orcamento{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 24vh;
+}
+
+#Fundo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--VarCor2);
+    height: 80%;
+    width: 90%;
+}
+
+#Principal{
+    display: flex;
+    flex-direction: row;
+    height: 65%;
+    width: 90%;
+    padding-top: 2%;
+}
+
+.Despesas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Despesas);
+    width: 30%;
+}
+
+.Limite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Limite);
+    width: 30%;
+}
+
+.Lucro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Lucro);
+    width: 40%;
+}
+
+#Legenda{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 60%;
+    height: 20%;
+    width: 90%;
+}
+
+#Despesas{
+    display: flex;
+    align-items: center;
+    height: 70%;
+    width: 30%;
+    font-size: 60%;
+}
+
+#Limite{
+    display: flex;
+    align-items: center;
+    height: 70%;
+    width: 30%;
+    font-size: 60%;
+}
+
+#Lucro{
+    display: flex;
+    align-items: center;
+    height: 70%;
+    width: 40%;
+    font-size: 60%;
+}
+
+.cubo{
+    display: flex;
+    justify-content: right;
+    width: 90%;
+    color: var(--VarCor3);
+}
+
+.color{
+    height: 2vh;
+    width: 1vw;
+    margin-right: 5%;
+    background-color: gray;
+    border: 1px solid black;
+}
+
+#colorDespesas{
+    background-color: var(--Despesas);
+}
+
+#colorLimite{
+    background-color: var(--Limite);
+}
+
+#colorLucro{
+    background-color: var(--Lucro);
+}
+
+#cuboLucro{
+    width: 50%;
+}
+
+/* Options */
+
+#Options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#FundoOptions{
+    display: flex;
+    justify-content: right;
+    height: 10vh;
+    width: 90vw;
+}
+
+#buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    
+    height: 100%;
+    width: 30%;
+}
+
+#Editar{
+    margin: 0% 5%;
+    height: 100%;
+    width: 30%;
+    border: 1px solid black;
+}
+
+#Compartilhar{
+    height: 100%;
+    width: 30%;
+    border: 1px solid black;
+}
+
+button{
+    height: 100%;
+    width: 100%;
+    background-color: var(--VarCor2);
+    color: var(--VarCor3);
+    font-size: 160%;
+}
+
+/* OBJETIVO */
+
+#TituloMain2{
+    display: flex;
+    justify-content: left;
+    padding-left: 5%;
+}
+
+#OptionsObjetivos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 10vh;
+    margin-top: 2%;
+}
+
+.Obj{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 30%;
+    border: 1px solid black;
+}
+
+.Amarelo{
+    height: 100%;
+    width: 50%;
+    background-color: yellow;
+}
+
+.Ciano{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(13, 209, 199);
+}
+
+#Text{
+    position: absolute;
+    top: 50%;
+    transform: translate(5%,-50%);
+}
